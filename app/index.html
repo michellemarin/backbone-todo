@@ -54,7 +54,7 @@
     </script>
 
     <script id="footer-template" type="text/template">
-      <span id="todo-count"><strong><%= activeTodoCount %></strong> left</span>
+      <span id="todo-count"><strong><%= remaining %></strong> left</span>
       <ul id="filters">
         <li>
           <a class="all selected" href="#/all">All</a>
@@ -67,8 +67,8 @@
         </li>
       </ul>
 
-      <button id="clear-completed" class="<%= completedClass %>">
-      Clear completed (<%= completedTodos %>)</button>
+      <button id="clear-completed" class="<%= completed %>">
+      Clear completed (<%= completed %>)</button>
      </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
